@@ -6,6 +6,16 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node --watch server",
-    "test": "echo 'todo'"
+    "test": "tap --reporter=list --watch"
+  },
+  "devDependencies": {
+    "pino-pretty": "^10.0.0",
+    "tap": "^16.3.4"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^6.7.1",
+    "env-schema": "^5.2.0",
+    "fastify-plugin": "^4.5.0",
+    "http-errors": "^2.0.0"
   }
 }

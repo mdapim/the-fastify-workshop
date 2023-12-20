@@ -5,6 +5,9 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server"
+    "start": "node --watch server"
+  },
+  "dependencies": {
+    "ajv": "^8.12.0"
   }
 }
